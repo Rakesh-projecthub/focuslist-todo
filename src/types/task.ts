@@ -1,0 +1,10 @@
+export type Priority = "high" | "medium" | "low";
+
+export interface Task {
+  id: string;
+  title: string;
+  priority: Priority;
+  completed: boolean;
+  createdAt: number;
+  updatedAt: number;
+}
